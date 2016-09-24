@@ -1,0 +1,197 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+/*超連結樣式設定*/
+
+a:link {
+	color: white;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:visited {
+	color: white;
+}
+
+
+/*set part1*/
+
+.part1 {
+	background-color: #ba2828;
+	height: 270px;
+}
+
+
+/*圖片圓圈*/
+
+.circle {
+	width: 250px;
+	height: 250px;
+	border-radius: 150px;
+	background-color: rgb(154, 32, 32);
+	position: relative;
+	top: 10px;
+	margin: auto;
+}
+
+.circle h1 {
+	position: relative;
+	top: 180px;
+	text-align: center;
+	color: #9d9d9d;
+	margin: 0;
+}
+
+.circle img {
+	display: block;
+	margin: 20px auto;
+	width: 190px;
+}
+
+
+/*set part2*/
+
+.part2 {
+	background-color: #212121;
+	height: 600px;
+}
+
+
+/*4-1作業區塊連結*/
+
+.a {
+	background-image: url(image/a.JPG);
+	height: 200px;
+}
+
+.a .btn-default {
+	position: relative;
+	top: 75px;
+	left: 65px;
+	width: 150px;
+	border-radius: 0px;
+	background-color: rgb(154, 32, 32);
+	border: none;
+}
+
+
+/*食記作業連結*/
+
+.eat {
+	height: 200px;
+}
+
+.eat .btn-default {
+	position: relative;
+	top: 100px;
+	left: 160px;
+	width: 100px;
+	border-radius: 0px;
+	background-color: rgb(154, 32, 32);
+	border: none;
+}
+
+.eat img {
+	width: 170px;
+	position: relative;
+	top: 15px;
+	left: 20px;
+}
+
+
+/*個人簡介連結*/
+
+.personal {
+	height: 200px;
+}
+
+.personal .btn-default {
+	position: relative;
+	top: 110px;
+	left: 150px;
+	width: 100px;
+	border-radius: 0px;
+	background-color: rgb(154, 32, 32);
+	border: none;
+}
+
+.personal img {
+	width: 100px;
+	position: relative;
+	top: 20px;
+	left: 50px;
+}
+
+
+/*iphone作業連結*/
+
+.phone {
+	height: 200px;
+	background-image: url(image/phone.JPG)
+}
+
+.phone .btn-default {
+	position: relative;
+	top: 85px;
+	left: 65px;
+	width: 150px;
+	border-radius: 0px;
+	background-color: rgb(154, 32, 32);
+	border: none;
+}
+
+
+/*6-1作業區塊連結*/
+
+.b {
+	background-image: url(image/b.JPG);
+	height: 200px;
+}
+
+.b .btn-default {
+	position: relative;
+	top: 75px;
+	left: 65px;
+	width: 150px;
+	border-radius: 0px;
+	background-color: rgb(154, 32, 32);
+	border: none;
+}
+
+
+/*5-1作業區塊連結*/
+
+.c {
+	height: 200px;
+	background-image: url(image/1.JPG);
+}
+
+.c .btn-default {
+	position: relative;
+	top: 75px;
+	left: 65px;
+	width: 150px;
+	border-radius: 0px;
+	background-color: rgb(154, 32, 32);
+	border: none;
+}
+
+
+/*set part3*/
+
+.part3 {
+	background-color: #ba2828;
+	height: 20px;
+}
+
+
+/*按鈕變色*/
+
+.btn-default:hover {
+	background-color: #b95353;
+}

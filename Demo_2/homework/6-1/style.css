@@ -1,0 +1,204 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+
+/*設定最上層nav*/
+
+.breadcrumb {
+	color: white;
+	position: relative;
+	left: 900px;
+	background-color: black;
+}
+
+.black {
+	height: 50px;
+	background: black;
+}
+
+
+/*設定大幅圖主頁*/
+
+.jumbotron {
+	background-image: url("img/slider-image-blurry.jpg");
+	height: 450px;
+}
+
+.container {
+	position: relative;
+	top: 200px;
+}
+
+.jumbotron h1 {
+	color: white;
+	font-size: 30px;
+	width: 400px;
+	background-color: #f4166b
+}
+
+.jumbotron p {
+	width: 400px;
+	color: #adadad;
+	line-height: 1;
+}
+
+section1 {
+	height: 50px;
+}
+
+
+/*設定中間白色部分*/
+
+.row1 .col-md-4 {
+	text-align: left;
+	color: #f4166b;
+}
+
+.col-md-8 {
+	text-align: center;
+	color: #f4166b;
+}
+
+
+/*網頁內容*/
+
+.section4 {
+	position: relative;
+	top: 50px;
+	background-color: #ededed;
+	height: 3000px;
+}
+
+
+/*左欄*/
+
+.row2 .col-md-8 {
+	background-color: white;
+	height: 3000px;
+	width: 600px;
+	position: relative;
+	left: 200px;
+	top: -30px;
+}
+
+
+/*第一~六張圖*/
+
+.part1 {
+	height: 490px;
+}
+
+.part1 h1 {
+	color: black;
+	text-align: left;
+}
+
+.part1 p {
+	color: black;
+	text-align: left;
+}
+
+.part1 h2 {
+	position: relative;
+	left: 470px;
+	width: 100px;
+	font-size: 18px;
+	border: 1px;
+	background-color: #d40d30;
+	color: white;
+}
+
+.part1 img {
+	width: 100%;
+}
+
+
+/*右欄*/
+
+.row2 .col-md-4 img {
+	display: block;
+	float: left;
+}
+
+.row2 .col-md-4 .box p {
+	width: 200px;
+	height: 60px;
+	padding-left: 20px;
+	float: left;
+}
+
+.row2 .col-md-4 {
+	background-color: white;
+	height: 2000px;
+	width: 300px;
+	position: relative;
+	left: 204px;
+	top: -30px;
+}
+
+.row2 .col-md-4 h1 {
+	color: black;
+}
+
+.row2 .col-md-4 p {
+	color: black;
+	font-size: 15px;
+	line-height: 1.5;
+}
+
+
+/*最下方黑色大區塊*/
+
+.section5 {
+	width: 100%;
+	background-color: #1c1c1c;
+	height: 500px;
+	position: relative;
+	top: 50px;
+}
+
+.section5 .box {
+	height: 250px;
+}
+
+.section5 .link {
+	color: white;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	top: 10px;
+	left: 20;
+}
+
+.section5 .box img {
+	padding: 10px;
+}
+
+.section5 .box p {
+	color: white;
+	width: 300px;
+	float: left;
+	position: relative;
+	left: 100px;
+	display: block;
+	float: left;
+	height: 60px;
+}
+
+
+/*最下方黑色長條區塊*/
+
+.section6 {
+	position: relative;
+	top: -10px;
+	background-color: black;
+	height: 50px;
+}
+
+.section6 p {
+	padding: 2px;
+	color: white;
+	text-align: center;
+}

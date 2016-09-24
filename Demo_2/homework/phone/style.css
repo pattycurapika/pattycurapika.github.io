@@ -1,0 +1,155 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+/*手機輪廓*/
+
+.outline {
+	position: relative;
+	top: 30px;
+	left: 135px;
+	width: 205px;
+	height: 415px;
+	border: 2px solid #000;
+	border-radius: 30px;
+}
+
+
+/*手機螢幕*/
+
+.screen {
+	position: relative;
+	top: -340px;
+	left: 149px;
+	width: 180px;
+	height: 320px;
+	border: 2px solid #000;
+	background-color: black;
+}
+
+
+/*前鏡頭*/
+
+.dot-1 {
+	position: relative;
+	top: -690px;
+	left: 205px;
+	width: 5px;
+	height: 5px;
+	border: 2px solid #000;
+	border-radius: 90px;
+	background-color: black;
+}
+
+
+/*P-sensor*/
+
+.dot-2 {
+	position: relative;
+	top: -710px;
+	left: 238px;
+	width: 1px;
+	height: 1px;
+	border: 2px solid #000;
+	border-radius: 90px;
+	background-color: black;
+}
+
+
+/*手機按鈕*/
+
+.botton {
+	position: relative;
+	top: -349px;
+	left: 226px;
+	width: 25px;
+	height: 25px;
+	border: 2px solid #6f6f6f;
+	border-radius: 90px;
+}
+
+
+/*手機喇叭*/
+
+.line {
+	position: relative;
+	top: -730px;
+	left: 225px;
+	width: 28px;
+	height: 0.9px;
+	border: 1px solid;
+	border-radius: 90px;
+	background-color: cadetblue
+}
+
+
+/*手機按鍵1*/
+
+.button1 {
+	position: relative;
+	top: -700px;
+	left: 134px;
+	width: 1px;
+	height: 15px;
+	border: 1px solid;
+	border-radius: 90px;
+	background-color: cadetblue
+}
+
+
+/*手機按鍵2*/
+
+.button2 {
+	position: relative;
+	top: -690px;
+	left: 134px;
+	width: 1px;
+	height: 30px;
+	border: 1px solid;
+	border-radius: 90px;
+	background-color: cadetblue
+}
+
+
+/*手機按鍵3*/
+
+.button3 {
+	position: relative;
+	top: -680px;
+	left: 134px;
+	width: 1px;
+	height: 28px;
+	border: 1px solid;
+	border-radius: 90px;
+	background-color: cadetblue
+}
+
+
+/*天線條1*/
+
+.line1 {
+	position: relative;
+	top: -760px;
+	left: 341px;
+	width: 1px;
+	height: 1px;
+	border: 2px solid #000;
+	border-radius: 90px;
+	background-color: black;
+}
+
+
+/*天線條2*/
+
+.line2 {
+	position: relative;
+	top: -730px;
+	left: 341px;
+	width: 1px;
+	height: 1px;
+	border: 2px solid #000;
+	border-radius: 90px;
+	background-color: black;
+}

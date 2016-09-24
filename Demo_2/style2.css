@@ -1,0 +1,110 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+/*set part1*/
+
+.part1 {
+	background-image: url(image/me2.JPG);
+	background-size: cover;
+	height: 280px;
+}
+
+
+/*設定照片*/
+
+.part1 h1 {
+	position: relative;
+	top: 140px;
+	text-align: center;
+	color: white;
+	margin: 0;
+}
+
+.part1 .circle {
+	position: relative;
+	top: -20px;
+}
+
+.part1 img {
+	display: block;
+	margin: auto;
+	border-radius: 150px;
+	height: 250px;
+	width: 250px;
+}
+
+
+/*set part2空白區塊*/
+
+.part2 {
+	height: 100px;
+	background-color: #ffffff;
+}
+
+
+/*set part3照片區塊*/
+
+.part3 {
+	background-color: #ffffff;
+	height: 500;
+}
+
+.col-md-4 img {
+	width: 100%;
+}
+
+.col-md-4 h2 {
+	font-family: 'Crimson Text', serif;
+	text-align: center;
+}
+
+
+/*下方白色區塊*/
+
+.col-md-12 {
+	background-color: white;
+	height: 100px;
+}
+
+
+/*個人基本資料*/
+
+.col-md-6 {
+	background: #898989;
+	height: 130px;
+}
+
+.col-md-6 .bar {
+	position: relative;
+	top: 10px;
+	left: 150px;
+	float: left;
+	width: 10px;
+	height: 70px;
+	background-color: #ba2828;
+}
+
+.col-md-6 .p {
+	position: relative;
+	width: 190px;
+	top: -50px;
+	left: 180px;
+	line-height: 1;
+	color: white;
+	font-size: 20px;
+	font-family: 'Crimson Text', serif;
+}
+
+.col-md-6 .c {
+	position: relative;
+	width: 190px;
+	top: 20px;
+	left: 170px;
+	line-height: 1;
+	color: white;
+	font-size: 20px;
+	font-family: 'Crimson Text', serif;
+}

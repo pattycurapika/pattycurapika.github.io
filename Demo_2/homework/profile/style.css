@@ -1,0 +1,30 @@
+* {
+	/*set all line-height, background-color*/
+	line-height: 1;
+}
+
+h1 {
+	/* set h1 color*/
+	color: #d9258d;
+}
+
+h2 {
+	/*	set h2 color*/
+	color: #2968de;
+}
+
+.title {
+	/*	set .title font-style*/
+	font-style: italic;
+}
+
+h3 {
+	/*	set h3 text-align*/
+	text-align: center;
+}
+
+article {
+	/*	set background and size*/
+	background-image: url(1.jpg);
+	background-size: 110%;
+}

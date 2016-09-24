@@ -1,0 +1,252 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+
+/*set part1*/
+
+
+/*超連結樣式*/
+
+a:link {
+	color: white;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:visited {
+	color: white;
+}
+
+
+/*設定超連結*/
+
+.part1 h1 {
+	color: white;
+	text-align: center;
+	padding-top: 100px;
+}
+
+.part1 h2 {
+	color: white;
+	text-align: center;
+	padding-top: 200px;
+}
+
+.part1 .word {
+	position: relative;
+	top: -300px;
+	margin: auto;
+	width: 820px;
+	color: white;
+}
+
+.word .About {
+	margin: 70px;
+	float: left;
+}
+
+.word .Homework {
+	margin: 70px;
+	float: left;
+}
+
+.word .Gallery {
+	margin: 70px;
+	float: left;
+}
+
+.word .xxx {
+	margin: 70px;
+	float: left;
+}
+
+.part1 {
+	background-image: url(image/photo-1.jpg);
+	background-size: cover;
+	width: 100%;
+	height: 650px;
+}
+
+.part1 .line {
+	position: relative;
+	top: -40px;
+	margin: auto;
+	border: 2px solid rgb(255, 255, 255);
+	width: 250px;
+	height: 50px;
+}
+
+
+/*set part2*/
+
+.part2 {
+	height: 300px;
+	background-color: #ba2828;
+}
+
+
+/*設定圓圈圖案*/
+
+.circle {
+	width: 250px;
+	height: 250px;
+	border-radius: 150px;
+	background-color: rgb(154, 32, 32);
+	margin: auto;
+	position: relative;
+	top: 25px;
+}
+
+.circle h1 {
+	position: relative;
+	top: 180px;
+	text-align: center;
+	color: #9d9d9d;
+}
+
+.circle img {
+	display: block;
+	margin: 20px auto;
+	width: 190px;
+}
+
+
+/*set part3*/
+
+.part3 {
+	height: 450px;
+	background-color: #212121;
+}
+
+
+/*設定左邊照片*/
+
+.part3 .up {
+	height: 450px;
+	background-image: url(image/photo%201-2.jpg);
+	background-size: cover;
+}
+
+
+/*設定右邊文字區塊*/
+
+.part3 .title {
+	position: relative;
+	top: 120px;
+	padding-left: 40px;
+	width: 550px;
+}
+
+.part3 .title h1 {
+	padding-left: 10px;
+	border-left: 10px solid #ba2828;
+}
+
+.part3 .title p {
+	font-size: 20px;
+	padding-top: 10px;
+	padding-left: 25px;
+}
+
+.upword {
+	color: white;
+}
+
+
+/*set part4*/
+
+.part4 {
+	height: 450px;
+	background-color: #898989;
+}
+
+
+/*設定右邊照片*/
+
+.part4 .down {
+	height: 450px;
+	background-image: url(image/photo%201-3.jpg);
+	background-size: cover;
+}
+
+
+/*設定左邊文字區塊*/
+
+.part4 .title {
+	position: relative;
+	top: 120px;
+	padding-left: 40px;
+	width: 550px;
+}
+
+.part4 .title h1 {
+	position: relative;
+	left: 30px;
+	padding-left: 10px;
+	border-left: 10px solid #ba2828;
+}
+
+.part4 .title p {
+	font-size: 20px;
+	padding-top: 10px;
+	padding-left: 50px;
+}
+
+
+/*set part5*/
+
+.part5 {
+	height: 500px;
+	background-color: white;
+}
+
+
+/*設定照片與文字*/
+
+.part5 img {
+	width: 500px;
+	display: block;
+	padding-top: 50px;
+	padding-left: 80px;
+}
+
+.part5 p {
+	width: 500px;
+	padding-top: 5px;
+	padding-left: 80px;
+}
+
+.part5 .logo {
+	position: relative;
+	left: 630px;
+	width: 700px;
+	top: -280px;
+}
+
+.part5 .logo img {
+	width: 190px;
+	padding: 0;
+	display: block;
+	float: left;
+	margin: 10px;
+}
+
+
+/*set part6*/
+
+.part6 {
+	height: 70px;
+	background-color: black;
+}
+
+.part6 p {
+	letter-spacing: 10px;
+	color: white;
+	text-align: right;
+	padding-top: 20px;
+	padding-right: 50px;
+}
